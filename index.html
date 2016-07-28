@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="store" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trying AngularJS</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/product.js"></script>
+</head>
+<body ng-controller="StoreController as store">
+
+<header>
+    <h1 class="text-center">Crafted Gems</h1>
+    <h2 class="text-center">– an Angular store –</h2>
+</header>
+
+
+        <div class="list-group">
+            <div ng-repeat="product in store.products" class="list-group-item">
+
+                <product-title></product-title>
+
+                <product-gallery></product-gallery>
+
+                <product-panels></product-panels>
+
+            </div>
+        </div>
+
+</body>
+</html>

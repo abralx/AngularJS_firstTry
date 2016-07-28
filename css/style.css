@@ -1,0 +1,20 @@
+body {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.ng-invalid.ng-dirty {
+    border-color: red;
+}
+.ng-valid.ng-dirty{
+    border-color: green;
+}
+.small-image {
+    width: 46px;
+    height: 46px;
+    margin: 30px 20px 20px 0;
+}
+
+product-gallery{
+
+}
